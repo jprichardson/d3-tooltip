@@ -31,6 +31,9 @@ var svg = d3.select('#graph').append('svg')
 
 var tooltip = d3tooltip(d3) //create new tooltip
 
+//the id attribute, automatically increment on the creation of each tooltip
+console.log(tooltip.id) //d3-tooltip-0
+
 svg.selectAll("circle")
     .data(yourDataArray)
     .enter()
@@ -68,6 +71,9 @@ As read from the article below, this gives a nice styling:
   border-radius: 8px;                
 }
 ```
+You could also add style for different tooltips using the value of the `id` property from your tooltip object.
+
+
 
 Credits
 -------
