@@ -31,7 +31,7 @@ var svg = d3.select('#graph').append('svg')
 
 var tooltip = d3tooltip(d3) //create new tooltip
 
-//the id attribute, automatically increment on the creation of each tooltip
+//the id attribute, automatically incremented on the creation of each tooltip
 console.log(tooltip.id) //d3-tooltip-0
 
 svg.selectAll("circle")
