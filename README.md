@@ -51,6 +51,24 @@ svg.selectAll("circle")
       .on("mouseout", tooltip.hide)
 ```
 
+Styling
+-------
+
+As read from the article below, this gives a nice styling:
+
+```css
+.d3-tooltip {            
+  text-align: center;           
+  width: 60px;                  
+  height: 28px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;                
+}
+```
+
 Credits
 -------
 
