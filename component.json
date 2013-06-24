@@ -1,0 +1,9 @@
+{
+  "name": "d3-tooltip",
+  "version": "0.0.1",
+  "description": "JThis is a d3 tooltip component.",
+  "keywords": ["d3", "browserify", "component"],
+  "scripts": [
+    "lib/d3-tooltip.js"
+  ]
+}
