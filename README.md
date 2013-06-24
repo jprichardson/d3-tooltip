@@ -51,7 +51,9 @@ svg.selectAll("circle")
         tooltip.html(html)
         tooltip.show()    
       })
-      .on("mouseout", tooltip.hide)
+      .on("mouseout", function(){
+        tooltip.hide()
+      })
 ```
 
 Styling
